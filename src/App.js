@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header.jsx';
-import Banner from './components/Banner/Banner';
+//import Banner from './components/Banner/Banner';
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Header/>
-        <Banner />
         <a
           className="App-link"
           href="https://reactjs.org"
