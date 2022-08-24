@@ -5,11 +5,11 @@ const Header = () => {
         <div className='Header'>
             <Banner 
                 image={'batiments1.png'}
-                class_banner={'max'}
+                class_banner={['max']}
             />
             <Banner 
                 image={'ecole1.png'} 
-                class_banner='min'
+                class_banner={['min','left']}
             />
         </div>
     );
